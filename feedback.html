@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>PARMA feedback</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <a href="index.html"><button class="glow-on-hover" type="button" id="back-to-home"><strong>&#8592; BACK</strong></button></a>
+        <link rel="shortcut icon" type="icon/png" href="https://icons.iconarchive.com/icons/aha-soft/standard-city/256/city-icon.png">
+<link rel="stylesheet" href="feedback.css">
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.7.5/brython.min.js"></script>
+    </head>
+    <body>
+        <script src="jquery.js"></script>
+        <script src="feedback.js"></script>
+        <h1 id="title" align="center">PARMA Feedback</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center>
+            <form id="contact-form" 
+            action="https://formspree.io/f/xleozdwn"
+            method="POST">
+        <textarea id="textfeed" align="center" placeholder="Enter Here What Do You Think About Us..." name="message"></textarea><br><br>
+        <p id="my-form-status"></p>
+   <a href="index.html"><button onclick="submit()" id="submit">SUBMIT</button></a>
+</form>
+    </center>
+    </body>
+</html>
